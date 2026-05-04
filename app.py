@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 from openai import OpenAI
 import tempfile
